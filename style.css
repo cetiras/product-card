@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    transform: translate(-35, -35%);
+    background-color: hsl(30, 38%, 92%);
+    border-radius: 20px;
+}
+
+img {
+    height: 47vh;
+    width: 35vh;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.second {
+    background-color: hsl(0, 0%, 100%);
+    height: 47vh;
+    width: 35vh;
+}
+
+h1, p, button {
+    margin: 5px 5px;
+}
+
+.third {
+    color: gray;
+    font-size: smaller;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.fourth{
+    color: black;
+    font-size: 23px;
+    margin-left: 15px;
+}
+
+.dollar{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.doll{
+    color: gray;
+    font-size: smaller;
+}
+
+.cart {
+    height: 2vh;
+    width: 2vh;
+    margin-right: 10px;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    padding: 7px;
+    margin-left: 15px;
+    border-radius: 10px;
+    width: 28vh;
+    border: none;
+}
+
+.fifth {
+    color: gray;
+    margin-left: 15px;
+}
+
+.sixth {
+    color: hsl(158, 36%, 37%);
+    margin-left: 15px;
+}
